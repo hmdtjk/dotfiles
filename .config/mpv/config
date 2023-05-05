@@ -1,0 +1,16 @@
+#
+# ~/.config/mpv/config
+#
+
+keep-open='yes'
+background='#282a36'
+save-position-on-quit='yes'
+
+osc='no'
+osd-font-size='30'
+osd-color='#f8f8f2'
+osd-font='Source Code Pro'
+
+screenshot-format='png'
+screenshot-template='%ts'
+screenshot-directory='~/Pictures/Screenshots/'

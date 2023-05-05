@@ -1,0 +1,5 @@
+#
+# ~/.config/gdb/gdbinit
+#
+
+set debuginfod enabled on
