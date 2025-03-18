@@ -1,0 +1,54 @@
+#
+# .config/zathura/zathurarc
+#
+
+set guioptions "vs"
+set font "Source Code Pro 12"
+
+set show-hidden "true"
+set show-directories "true"
+
+set selection-clipboard "clipboard"
+set selection-notification "false"
+
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set statusbar-home-tilde "true"
+
+set default-bg "rgba(40, 42, 54, 1)"
+set default-fg "rgba(248, 248, 242, 1)"
+
+set recolor-keephue "true"
+set recolor-lightcolor "rgba(40, 42, 54, 1)"
+set recolor-darkcolor "rgba(248, 248, 242, 1)"
+
+set inputbar-bg "rgba(40, 42, 54, 1)"
+set inputbar-fg "rgba(248, 248, 242, 1)"
+set statusbar-bg "rgba(40, 42, 54, 1)"
+set statusbar-fg "rgba(248, 248, 242, 1)"
+
+set index-bg "rgba(40, 42, 54, 1)"
+set index-fg "rgba(248, 248, 242, 1)"
+set index-active-bg "rgba(68, 71, 90, 1)"
+set index-active-fg "rgba(248, 248, 242, 1)"
+
+set render-loading "true"
+set render-loading-fg "rgba(40, 42, 54, 1)"
+set render-loading-bg "rgba(248, 248, 242, 1)"
+
+set highlight-color "rgba(255, 184, 108, 0.5)"
+set highlight-active-color "rgba(255, 121, 198, 0.5)"
+
+set completion-bg "rgba(40, 42, 54, 1)"
+set completion-fg "rgba(98, 114, 164, 1)"
+set completion-group-bg "rgba(40, 42, 54, 1)"
+set completion-group-fg "rgba(98, 114, 164, 1)"
+set completion-highlight-bg "rgba(68, 71, 90, 1)"
+set completion-highlight-fg "rgba(248, 248, 242 ,1)"
+
+set notification-bg "rgba(40, 42, 54, 1)"
+set notification-fg "rgba(248, 248, 242, 1)"
+set notification-error-bg "rgba(255, 85, 85, 1)"
+set notification-error-fg "rgba(248, 248, 242, 1)"
+set notification-warning-bg "rgba(255, 184, 108, 1)"
+set notification-warning-fg "rgba(68, 71, 90, 1)"

@@ -1,0 +1,8 @@
+#
+# ~/.config/sway/config
+#
+
+set $mod mod4
+
+include ~/.config/sway/config.d/*
+include /etc/sway/config.d/*

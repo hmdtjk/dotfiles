@@ -1,0 +1,9 @@
+#
+# ~/.config/git/config
+#
+
+[core]
+    autocrlf = input
+
+[init]
+    defaultBranch = master

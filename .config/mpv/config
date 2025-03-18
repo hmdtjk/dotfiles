@@ -1,0 +1,17 @@
+#
+# ~/.config/mpv/config
+#
+
+keep-open = "yes"
+save-position-on-quit = "yes"
+
+osc = "no"
+background-color = "#282a36"
+
+osd-color = "#f8f8f2"
+osd-font = "Source Code Pro"
+osd-font-size = "25"
+
+sub-color = "#f8f8f2"
+sub-font = "Source Code Pro"
+sub-font-size = "20"
