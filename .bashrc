@@ -17,6 +17,7 @@ shopt -s no_empty_cmd_completion
 export HISTSIZE=-1
 export HISTFILESIZE=-1
 export HISTCONTROL="erasedups:ignoreboth"
+export HISTTIMEFORMAT="%F %T "
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
