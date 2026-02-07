@@ -15,5 +15,5 @@ vim.keymap.set("n", "<leader>o", function()
         vim.b.netrw_curdir,
         vim.fn.eval("netrw#Call('NetrwGetWord')")
     )
-    vim.fn.system({"xdg-open", file})
+    vim.system({ "xdg-open", file }, { detach = true })
 end)
