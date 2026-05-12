@@ -1,0 +1,23 @@
+#
+# ~/.config/imv/config
+#
+
+[options]
+background = #282a36
+
+overlay_text_color = #f8f8f2
+overlay_background_color = #282a36
+
+overlay_font = Source Code Pro:15
+overlay_position_bottom = true
+
+[aliases]
+remove = exec rm -- "$imv_current_file"
+
+[binds]
+<Shift+Up> = pan 0 -50
+<Shift+Down> = pan 0 50
+<Shift+Right> = pan 50 0
+<Shift+Left> = pan -50 0
+
+<Shift+X> = remove; close
